@@ -134,7 +134,7 @@ TW_FORCE_USE_BUSYBOX := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
-#TW_HAS_EDL_MODE := true
+TW_HAS_EDL_MODE := true
 TW_Y_OFFSET := 80
 TW_H_OFFSET := -80
 
@@ -153,8 +153,6 @@ TW_INCLUDE_FUSE_EXFAT := true
 TW_INCLUDE_FUSE_NTFS := true
 TARGET_OTA_ASSERT_DEVICE := violet
 
-# OFFICIAL
-PB_OFFICIAL := true
 
 # TORCH
-PB_TORCH_PATH := "/sys/class/leds/led:torch_0"
+# PB_TORCH_PATH := "/sys/class/leds/led:torch_0"
