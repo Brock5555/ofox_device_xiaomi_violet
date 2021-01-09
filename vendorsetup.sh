@@ -23,9 +23,9 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
         export PLATFORM_VERSION="16.1.0"
    	export TW_DEFAULT_LANGUAGE="en"
         export OF_SCREEN_H=2340
-        export OF_STATUS_H=80
-        export OF_STATUS_INDENT_LEFT=48
-        export OF_STATUS_INDENT_RIGHT=48
+        export OF_STATUS_H=94
+        export OF_STATUS_INDENT_LEFT=55
+        export OF_STATUS_INDENT_RIGHT=55
 	export OF_USE_MAGISKBOOT=1
 	export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES=1
 	export OF_NO_TREBLE_COMPATIBILITY_CHECK=1
